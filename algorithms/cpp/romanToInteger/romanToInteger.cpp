@@ -1,6 +1,8 @@
+#include <string>
+
 class Solution {
 public:
-  int romanToInt(string s) {
+  int romanToInt(std::string s) {
     int res = 0;
     char prev_c = '\0';
     for (const auto &c : s) {
